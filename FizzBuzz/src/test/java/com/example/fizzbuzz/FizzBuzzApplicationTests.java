@@ -14,6 +14,8 @@ class FizzBuzzApplicationTests {
 		FizzBuzzApplication test = new FizzBuzzApplication(); 
 
         // assert statements
+	assertEquals("2", test.fizzBuzz(2), "Buzz");
+		
         assertEquals("fizz", test.fizzBuzz(3), "Buzz");
         
         assertEquals("buzz", test.fizzBuzz(5), "Buzz");
